@@ -1,0 +1,14 @@
+[project]
+name = "export-claude-report"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+authors = [{ name = "truonghm" }]
+requires-python = ">=3.13"
+dependencies = []
+
+[project.scripts]
+export-claude-report = "export_claude_report.__main__:main"
+[build-system]
+requires = ["uv_build>=0.9.26,<0.10.0"]
+build-backend = "uv_build"
